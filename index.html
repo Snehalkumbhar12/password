@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Password wallah </title>
+
+		<link rel = "stylesheet" href = "c1.css"/>
+		<script src="j1.js"></script>	
+		</head>
+	<body>
+	<center>
+		<h1> Password wallah </h1>
+		<form onsubmit = "gen()">
+		<label> Select Password Length </label>
+		<br/>
+		<input type = "radio" name = "le" value = "s6" id="s6"/> 6
+		<input type = "radio" name = "le" value = "s7" id="s7"/> 7
+		<input type = "radio" name = "le" value = "s8" id="s8"/> 8
+		<input type = "radio" name = "le" value = "s9" id="s9"/> 9
+		<br/><br/>
+
+		<input type = "checkbox"  value = "uc" id = "uc" /> UpperCase
+		<input type = "checkbox"  value = "di" id = "di" /> Digits
+		<br/><br/>
+		<input type = "submit" value = "Generate Password" /> 
+
+		</form>
+			<h1 id = "msg"> </h1>
+
+	</center>
+			
+	</head>
+	
+</html>
